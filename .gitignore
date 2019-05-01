@@ -1,9 +1,6 @@
-# Misc
-.DS_Store
-.idea
-cmake-build-debug
-CMakeLists.txt
-*.cbp
-*.o
-*.dSYM
-more01
+# Ignore everything
+*
+# Except
+!*.c
+!Makefile
+!.gitignore
